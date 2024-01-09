@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EventSelect">
+
+
+    <TextView
+        android:id="@+id/tmText1"
+        android:layout_width="336dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="108dp"
+        android:paddingLeft="20sp"
+        android:paddingTop="2sp"
+        android:text="@string/tm1"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/tmText2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.213"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+    <View
+        android:id="@+id/v1"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="24dp"
+        android:background="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tmText1" />
+
+    <TextView
+        android:id="@+id/tmText2"
+        android:layout_width="129dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="20dp"
+        android:paddingLeft="20sp"
+        android:paddingTop="2sp"
+        android:text="@string/tm2"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/tmText3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.755"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/v2"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="104dp"
+        android:background="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tmText2" />
+
+    <TextView
+        android:id="@+id/tmText3"
+        android:layout_width="336dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="31dp"
+        android:paddingLeft="20sp"
+        android:paddingTop="2sp"
+        android:text="@string/tm3"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/v2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.213"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/v1"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/v3"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+
+        android:layout_marginTop="32dp"
+        android:background="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tmText5" />
+
+    <TextView
+        android:id="@+id/tmText4"
+        android:layout_width="138dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="32dp"
+        android:paddingLeft="20sp"
+        android:paddingTop="2sp"
+        android:text="@string/tm4"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/v2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.941"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/v1"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/v4"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+
+        android:background="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tmText6" />
+
+    <TextView
+        android:id="@+id/tmText5"
+        android:layout_width="381dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="32dp"
+        android:paddingLeft="20sp"
+        android:paddingTop="2sp"
+        android:text="@string/tm5"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/v3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/v2"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/v5"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+
+        android:background="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/v4"
+        app:layout_constraintTop_toBottomOf="@id/tmText6" />
+
+    <View
+        android:id="@+id/v7"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+
+        android:background="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/tmText6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/v4"
+        app:layout_constraintTop_toBottomOf="@id/tmText2"
+        app:layout_constraintVertical_bias="0.971" />
+
+    <TextView
+        android:id="@+id/tmText6"
+        android:layout_width="381dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="156dp"
+        android:paddingLeft="20sp"
+        android:paddingTop="2sp"
+        android:text="@string/tm6"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/v4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tmText5"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tmText7"
+        android:layout_width="381dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="20dp"
+        android:paddingLeft="20sp"
+        android:paddingTop="2sp"
+        android:text="@string/tm7"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/tmText6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/v3"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:background="@color/grey2"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingBottom="20dp" >
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey2"
+    tools:context=".create_routine2">
+<!--<ScrollView-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent">-->
+
+    <TextView
+        android:id="@+id/crtText00"
+        android:layout_width="408dp"
+        android:layout_height="63dp"
+        android:layout_marginBottom="44dp"
+        android:paddingLeft="20sp"
+        android:paddingTop="25sp"
+        android:text="@string/crt00"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/crtText2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.19"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/crtText0"
+        android:layout_width="454dp"
+        android:layout_height="75dp"
+        app:layout_constraintBottom_toTopOf="@+id/crtText1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/crtText1"
+        android:layout_width="408dp"
+        android:layout_height="63dp"
+        android:layout_marginBottom="8dp"
+        android:paddingLeft="20sp"
+        android:paddingTop="25sp"
+        android:text="@string/crt1"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/crtText2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/crtText2"
+        android:paddingVertical="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/grey"
+        android:paddingLeft="20sp"
+        android:text="@string/crt2"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/crtText3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <TextView
+        android:id="@+id/crtText3"
+        android:layout_width="495dp"
+        android:layout_height="68dp"
+        android:background="@color/grey"
+        android:paddingLeft="20sp"
+        android:paddingTop="2sp"
+        android:text="@string/crt3"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="248dp" />
+
+    <TextView
+        android:id="@+id/crtText4"
+        android:layout_width="158dp"
+        android:layout_height="57dp"
+        android:backgroundTint="@color/grey3"
+        android:paddingLeft="20sp"
+        android:paddingTop="2sp"
+        android:text="@string/crt4"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.676"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="316dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/myFloatingActionButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="392dp"
+        android:backgroundTint="@color/blue"
+        android:src="@drawable/baseline_add_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:tint="@color/white" />
+
+    <TextView
+        android:id="@+id/crtText5"
+        android:layout_width="336dp"
+        android:layout_height="52dp"
+        android:paddingLeft="20sp"
+        android:paddingTop="2sp"
+        android:text="@string/crt5"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="373dp" />
+
+    <TextView
+        android:id="@+id/crtText6"
+        android:layout_width="491dp"
+        android:layout_height="66dp"
+        android:background="@color/grey"
+        android:paddingLeft="20sp"
+        android:paddingTop="2sp"
+        android:text="@string/crt6"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="538dp" />
+
+    <TextView
+        android:id="@+id/crtText7"
+        android:layout_width="158dp"
+        android:layout_height="57dp"
+        android:backgroundTint="@color/grey3"
+        android:paddingLeft="20sp"
+        android:paddingTop="2sp"
+        android:text="@string/crt7"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.419"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="510dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/myFloatingActionButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="196dp"
+        android:backgroundTint="@color/blue"
+        android:src="@drawable/baseline_add_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:tint="@color/white" />
+
+    <TextView
+        android:id="@+id/crtText8"
+        android:layout_width="336dp"
+        android:layout_height="52dp"
+        android:paddingLeft="20sp"
+        android:paddingTop="2sp"
+        android:text="@string/crt8"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.102"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="604dp" />
+
+    <TextView
+        android:id="@+id/crtText9"
+        android:layout_width="488dp"
+        android:layout_height="80dp"
+        android:background="@color/grey"
+        android:paddingLeft="20sp"
+        android:paddingTop="2sp"
+        android:text="@string/crt9"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="616dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">My Smart Home</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello Blank Fragment</string>
+
+    <!--    favorite texts-->
+    <string name="fav1">No favorites!</string>
+    <string name="fav2"> Add your favorite routines for easy</string>
+    <string name="fav3">access here</string>
+    <string name="fav4">Tap the  \'+\' button below to add your</string>
+    <string name="fav5">favorite routines</string>
+
+    <!--    things texts-->
+    <string name="t1">No Things!</string>
+    <string name="t2"> It looks lik we didnt discover any devices</string>
+    <string name="t3">Try an option below</string>
+    <string name="t4">Run discovery</string>
+    <string name="t5">Add Acloud Account</string>
+    <string name="t6">view our supported devices</string>
+    <string name="t7">contact support</string>
+
+    <!--    routine texts-->
+    <string name="rat1">No Routines!</string>
+    <string name="rat2">click the  \'+\' button below to get started</string>
+    <string name="idea1">More Recommendations</string>
+    <string name="idea2">Even more recommendations!</string>
+    <string name="idea3">Thanksgiving Dinner</string>
+    <string name="idea4">Ready</string>
+    <string name="idea5">Send me a notification</string>
+
+    <!--    Settings texts-->
+    <string name="st1">User settings</string>
+    <string name="st2">Moses</string>
+    <string name="st3">Kmntanda@gmail.com</string>
+    <string name="st4">Home Settings</string>
+    <string name="st5">Accounts And Hubs</string>
+    <string name="st6">Clients</string>
+    <string name="st7">Locations</string>
+    <string name="st8">Voice</string>
+    <string name="st9">Voice Assistants</string>
+    <string name="st10">App Permissions</string>
+    <string name="st11">Notifications And Permissions</string>
+
+    <!--    routine creation texts-->
+    <string name="crt00">Routine Name</string>
+    <string name="crt1">When</string>
+    <string name="crt2">Want this routine to run automatically?</string>
+    <string name="crt3">Add an event below</string>
+    <string name="crt4">Add Event</string>
+    <string name="crt5">Run these actions</string>
+    <string name="crt6">No actions. Tap below to add one</string>
+    <string name="crt7">Add Action</string>
+    <string name="crt8">But only if</string>
+    <string name="crt9">Add an Event before Adding conditions</string>
+
+    <!--    time creation texts-->
+    <string name="tm1">The Time Is</string>
+    <string name="tm2">Time</string>
+    <string name="tm3">The SunSet at </string>
+    <string name="tm4">Location</string>
+    <string name="tm5">Its 15 minutes before the sunrise at Location</string>
+    <string name="tm6">Its 15 minutes before the sunset at Location</string>
+    <string name="tm7">Its 15 minutes after the sunrise at Location</string>
+
+
+</resources>
